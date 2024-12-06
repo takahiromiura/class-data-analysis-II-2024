@@ -1,0 +1,344 @@
+/* @theme lecture */
+
+@import "gaia";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+:root {
+  --color-background: #fff;
+  --color-foreground: #2b2b2a;
+  --color-highlight: #219ebc;
+}
+
+header {
+  background-color: #219ebc;
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 15px;
+  padding-left: 40px;
+  height: 12%;
+}
+
+section {
+  font-family: "Noto Sans JP", sans-serif;
+  padding-top: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: flex-start;
+  font-size: 30px;
+}  
+
+section.right_img > ul {
+  width: 35%;
+
+}
+
+section.math {
+  font-size: 25px;
+}
+
+footer {
+  height: 80%;
+  margin-bottom: 35px;
+}
+
+footer img {
+  max-height: 100%;
+  max-width: 700px;
+  float: right;
+  margin-right: 30px;
+}
+
+table {
+  margin: 0 auto; /* 水平中央揃え */
+  border-collapse: collapse; /* 表の線の重なりを無くす */
+}
+
+section.table_margin table {
+  margin: 20px auto;
+  border-collapse: collapse; 
+}
+
+section.center_img > ul{
+  font-size: 40px;
+  width: 90%;
+  margin-top: 10%;
+  display: grid;
+  justify-content: center;
+}
+
+section.md_img > footer {
+  position: absolute;
+  /* フッターを絶対位置に固定 */
+  bottom: 0;
+  top: 15%;
+  width: 100%;
+  /* フッターをスライドの幅全体に広げる */
+  display: flex;
+  justify-content: center;
+  /* 画像を中央に配置 */
+  align-items: flex-end;
+  /* フッターの下に画像を寄せる */
+  height: 90%;
+  /* フッターの高さを調整して適切な大きさに */
+}
+
+section.md_img > footer img {
+  max-height: 100%;
+  /* 画像の高さをフッター内に制限 */
+  max-width: 100%;
+  /* 画像の幅をフッター全体に合わせる */
+  margin-bottom: 0;
+  /* 余白をなしにする */
+}
+
+section.left_img>ul {
+  font-size: 40px;
+  width: 90%;
+  margin-top: 10%;
+  display: grid;
+}
+
+section.md_list > ul {
+  font-size: 35px;
+  width: 95%;
+  margin-top: 5%;
+  display: grid;
+}
+
+section.right_img > ul {
+  width: 35%;
+
+}
+
+section.sm_right_img>ul {
+  width: 50%;
+  font-size: 28px;
+}
+
+section.sm_right_img > footer {
+  height: 80%;
+  margin-bottom: 35px;
+}
+
+section.sm_right_img > footer img {
+  max-height: 100%;
+  max-width: 50%;
+  float: right;
+  margin-right: 2%;
+}
+
+section.md_right_img > ul {
+  width: 50%;
+  font-size: 30px;
+}
+
+section.md_right_img>footer {
+  height: 80%;
+  margin-bottom: 35px;
+}
+
+section.md_right_img>footer img {
+  max-height: 100%;
+  max-width: 50%;
+  float: right;
+  margin-right: 5%;
+}
+
+section.thin_right_img > ul {
+  width: 50%;
+}
+
+section.thin_right_img > footer {
+  height: 80%;
+  margin-bottom: 35px;
+}
+
+section.thin_right_img > footer img {
+  max-height: 100%;
+  max-width: 500px;
+  float: right;
+  margin-right: 30px;
+}
+
+
+section.thin_img > ul {
+  width: 55%;
+}
+
+section.thin_img > footer img {
+    max-height: 200%;
+    max-width: 800px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+section.bottom_img>footer {
+  position: absolute;
+  /* フッターを絶対位置に固定 */
+  bottom: 0;
+  top: 20%;
+  /* フッターをスライドの下部に配置 */
+  width: 100%;
+  /* フッターをスライドの幅全体に広げる */
+  display: flex;
+  justify-content: center;
+  /* 画像を中央に配置 */
+  align-items: flex-end;
+  /* フッターの下に画像を寄せる */
+  height: 100%;
+  /* フッターの高さを調整して適切な大きさに */
+}
+
+section.bottom_img>footer img {
+  max-height: 100%;
+  /* 画像の高さをフッター内に制限 */
+  max-width: 100%;
+  /* 画像の幅をフッター全体に合わせる */
+  margin-bottom: 0;
+  /* 余白をなしにする */
+}
+
+section.thin_bottom_img>footer {
+  height: 90%;
+  padding-top: 30%;
+}
+
+section.thin_bottom_img>footer img {
+  max-height: 100%;
+  display: flex;
+  float: left;
+  margin-left: 50px;
+  max-width: 1100px;
+}
+
+section.lg_bottom_img>footer {
+  height: 85%;
+  margin-top: 10%;
+  padding-top: 10%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+section.lg_bottom_img > footer img {
+  max-height: 100%;
+  max-width: 1100px;
+}
+
+section.md_bottom_img > footer {
+  height: 91%;
+  margin-top: 10%;
+  padding-top: 11%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+section.md_bottom_img > footer img {
+  max-height: 110%;
+  max-width: 1000px;
+}
+
+section.sm_bottom_img > footer {
+  height: 80%;
+  margin-top: 10%;
+  padding-top: 10%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+section.sm_bottom_img > footer img {
+  max-height: 100%;
+  max-width: 1000px;
+}
+
+section.sm_right_bottom_img>footer {
+  height: 80%;
+  margin-top: 10%;
+  padding-top: 10%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: right;
+}
+
+section.sm_right_bottom_img>footer img {
+  max-height: 100%;
+  max-width: 1000px;
+}
+
+section.tiny_bottom_img>footer {
+  height: 70%;
+  margin-top: 10%;
+  padding-top: 10%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+section.tiny_bottom_img>footer img {
+  max-height: 100%;
+  max-width: 1000px;
+}
+
+section.wide_bottom_img>footer {
+    height: 75%;
+    margin-top: 15%;
+    padding-top: 15%;
+    display: flex;
+    justify-content: center;
+  }
+
+section.wide_bottom_img>footer img {
+  max-height: 100%;
+  width: 1100px;
+  float: left;
+  margin-left: 50px;
+  max-width: 1100px;
+}
+
+section.wide_lg_bottom_img>footer {
+  height: 75%;
+  margin-top: 15%;
+  padding-top: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+section.wide_lg_bottom_img>footer img {
+  max-height: 100%;
+  width: 1100px;
+  float: left;
+  margin-left: 50px;
+  max-width: 1100px;
+}
+
+section.sm_txt {
+  font-size: 24px;
+}
+
+section.md_txt {
+  font-size: 28px;
+}
+
+section > div[data-marpit-advanced-background-container] {
+	margin-top: 100px !important;
+	width: calc(var(--marpit-advanced-background-split)) !important;
+	height: calc(100% - 150px) !important;
+}
+
+section.references {
+  font-size: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding-left: 5%;
+}
+
+section.quiz > h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+}

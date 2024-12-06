@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "class-causal-inference-b-2024"
+version = "0.1.0"
+description = ""
+authors = ["takahiro <takamiura12@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.7"
+pandas = "^2.2.3"
+plotnine = "^0.13.6"
+statsmodels = "^0.14.4"
+loguru = "^0.7.2"
+polars = "^1.9.0"
+typer = "^0.12.5"
+pyarrow = "^17.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+flake8 = "^7.1.1"
+black = "^24.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
